@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo Classes</title>
+    <style>
+      
+      table{
+          border-collapse: collapse;
+          border: 1px solid black;
+          width: 60%;
+          text-align: center;
+      }
+      th{
+        border: 1px solid white;
+        padding: 10px;
+        color:white;
+        background-color: darkblue;
+      }
+      td{
+        border: 1px ;
+        padding: 10px;
+
+      }
+      tr:nth-child(2n+1){
+        background-color: white;
+      }
+      tr:nth-child(2n){
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <h1>Table</h1>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Shaving</th>
+
+        </tr>
+        <tr>
+            <td>Raja</td>
+            <td>Grover</td>
+            <td>200100</td>
+        </tr>
+        <tr>
+            <td>Gabbar</td>
+            <td>Singh</td>
+            <td>129999</td>
+
+        </tr>
+        <tr>
+            <td>Ramesh</td>
+            <td>Thakur</td>
+            <td>350000</td>
+
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>67000</td>
+
+        </tr>
+        <tr>
+            <td>Rajkumar</td>
+            <td>Rao</td>
+            <td>87000</td>
+
+        </tr>
+        <tr>
+            <td>Salman</td>
+            <td>Kureshi</td>
+            <td>97000</td>
+
+        </tr>
+    </table>
+
+  </body>
+</html>
